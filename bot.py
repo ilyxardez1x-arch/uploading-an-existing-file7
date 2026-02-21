@@ -16,7 +16,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 BOT_TOKEN = os.environ["BOT_TOKEN"]
-ADMIN_ID  = int(os.environ.get("6210516253", "0"))   # свой Telegram ID
+ADMIN_ID  = int(os.environ.get("ADMIN_ID", "6210516253"))   # свой Telegram ID
 
 # ═══════════════════════════════════════════════════════════════
 #  БАЗА ДАННЫХ
